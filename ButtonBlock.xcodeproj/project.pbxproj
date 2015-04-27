@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		134273451AC3EB2E0036178E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 134273441AC3EB2E0036178E /* Foundation.framework */; };
+		134273471AC3EB2E0036178E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 134273461AC3EB2E0036178E /* CoreGraphics.framework */; };
+		134273491AC3EB2E0036178E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 134273481AC3EB2E0036178E /* UIKit.framework */; };
+		1342734F1AC3EB2E0036178E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1342734D1AC3EB2E0036178E /* InfoPlist.strings */; };
+		134273511AC3EB2E0036178E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 134273501AC3EB2E0036178E /* main.m */; };
+		134273551AC3EB2E0036178E /* DFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 134273541AC3EB2E0036178E /* DFAppDelegate.m */; };
+		134273581AC3EB2E0036178E /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 134273561AC3EB2E0036178E /* Main_iPhone.storyboard */; };
+		1342735B1AC3EB2E0036178E /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 134273591AC3EB2E0036178E /* Main_iPad.storyboard */; };
+		1342735E1AC3EB2E0036178E /* DFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1342735D1AC3EB2E0036178E /* DFViewController.m */; };
+		134273601AC3EB2E0036178E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1342735F1AC3EB2E0036178E /* Images.xcassets */; };
+		134273671AC3EB2E0036178E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 134273661AC3EB2E0036178E /* XCTest.framework */; };
+		134273681AC3EB2E0036178E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 134273441AC3EB2E0036178E /* Foundation.framework */; };
+		134273691AC3EB2E0036178E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 134273481AC3EB2E0036178E /* UIKit.framework */; };
+		134273711AC3EB2E0036178E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1342736F1AC3EB2E0036178E /* InfoPlist.strings */; };
+		134273731AC3EB2E0036178E /* ButtonBlockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 134273721AC3EB2E0036178E /* ButtonBlockTests.m */; };
+		134273801AC3EBE50036178E /* UIButton+WithBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 1342737F1AC3EBE50036178E /* UIButton+WithBlock.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1342736A1AC3EB2E0036178E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 134273391AC3EB2E0036178E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 134273401AC3EB2E0036178E;
+			remoteInfo = ButtonBlock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		134273411AC3EB2E0036178E /* ButtonBlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButtonBlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		134273441AC3EB2E0036178E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		134273461AC3EB2E0036178E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		134273481AC3EB2E0036178E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1342734C1AC3EB2E0036178E /* ButtonBlock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ButtonBlock-Info.plist"; sourceTree = "<group>"; };
+		1342734E1AC3EB2E0036178E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		134273501AC3EB2E0036178E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		134273521AC3EB2E0036178E /* ButtonBlock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ButtonBlock-Prefix.pch"; sourceTree = "<group>"; };
+		134273531AC3EB2E0036178E /* DFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DFAppDelegate.h; sourceTree = "<group>"; };
+		134273541AC3EB2E0036178E /* DFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFAppDelegate.m; sourceTree = "<group>"; };
+		134273571AC3EB2E0036178E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		1342735A1AC3EB2E0036178E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		1342735C1AC3EB2E0036178E /* DFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DFViewController.h; sourceTree = "<group>"; };
+		1342735D1AC3EB2E0036178E /* DFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFViewController.m; sourceTree = "<group>"; };
+		1342735F1AC3EB2E0036178E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		134273651AC3EB2E0036178E /* ButtonBlockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonBlockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		134273661AC3EB2E0036178E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1342736E1AC3EB2E0036178E /* ButtonBlockTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ButtonBlockTests-Info.plist"; sourceTree = "<group>"; };
+		134273701AC3EB2E0036178E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		134273721AC3EB2E0036178E /* ButtonBlockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonBlockTests.m; sourceTree = "<group>"; };
+		1342737E1AC3EBE50036178E /* UIButton+WithBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WithBlock.h"; sourceTree = "<group>"; };
+		1342737F1AC3EBE50036178E /* UIButton+WithBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WithBlock.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1342733E1AC3EB2E0036178E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				134273471AC3EB2E0036178E /* CoreGraphics.framework in Frameworks */,
+				134273491AC3EB2E0036178E /* UIKit.framework in Frameworks */,
+				134273451AC3EB2E0036178E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		134273621AC3EB2E0036178E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				134273671AC3EB2E0036178E /* XCTest.framework in Frameworks */,
+				134273691AC3EB2E0036178E /* UIKit.framework in Frameworks */,
+				134273681AC3EB2E0036178E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		134273381AC3EB2E0036178E = {
+			isa = PBXGroup;
+			children = (
+				1342734A1AC3EB2E0036178E /* ButtonBlock */,
+				1342736C1AC3EB2E0036178E /* ButtonBlockTests */,
+				134273431AC3EB2E0036178E /* Frameworks */,
+				134273421AC3EB2E0036178E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		134273421AC3EB2E0036178E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				134273411AC3EB2E0036178E /* ButtonBlock.app */,
+				134273651AC3EB2E0036178E /* ButtonBlockTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		134273431AC3EB2E0036178E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				134273441AC3EB2E0036178E /* Foundation.framework */,
+				134273461AC3EB2E0036178E /* CoreGraphics.framework */,
+				134273481AC3EB2E0036178E /* UIKit.framework */,
+				134273661AC3EB2E0036178E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1342734A1AC3EB2E0036178E /* ButtonBlock */ = {
+			isa = PBXGroup;
+			children = (
+				1342737E1AC3EBE50036178E /* UIButton+WithBlock.h */,
+				1342737F1AC3EBE50036178E /* UIButton+WithBlock.m */,
+				134273531AC3EB2E0036178E /* DFAppDelegate.h */,
+				134273541AC3EB2E0036178E /* DFAppDelegate.m */,
+				134273561AC3EB2E0036178E /* Main_iPhone.storyboard */,
+				134273591AC3EB2E0036178E /* Main_iPad.storyboard */,
+				1342735C1AC3EB2E0036178E /* DFViewController.h */,
+				1342735D1AC3EB2E0036178E /* DFViewController.m */,
+				1342735F1AC3EB2E0036178E /* Images.xcassets */,
+				1342734B1AC3EB2E0036178E /* Supporting Files */,
+			);
+			path = ButtonBlock;
+			sourceTree = "<group>";
+		};
+		1342734B1AC3EB2E0036178E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1342734C1AC3EB2E0036178E /* ButtonBlock-Info.plist */,
+				1342734D1AC3EB2E0036178E /* InfoPlist.strings */,
+				134273501AC3EB2E0036178E /* main.m */,
+				134273521AC3EB2E0036178E /* ButtonBlock-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1342736C1AC3EB2E0036178E /* ButtonBlockTests */ = {
+			isa = PBXGroup;
+			children = (
+				134273721AC3EB2E0036178E /* ButtonBlockTests.m */,
+				1342736D1AC3EB2E0036178E /* Supporting Files */,
+			);
+			path = ButtonBlockTests;
+			sourceTree = "<group>";
+		};
+		1342736D1AC3EB2E0036178E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1342736E1AC3EB2E0036178E /* ButtonBlockTests-Info.plist */,
+				1342736F1AC3EB2E0036178E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		134273401AC3EB2E0036178E /* ButtonBlock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 134273761AC3EB2E0036178E /* Build configuration list for PBXNativeTarget "ButtonBlock" */;
+			buildPhases = (
+				1342733D1AC3EB2E0036178E /* Sources */,
+				1342733E1AC3EB2E0036178E /* Frameworks */,
+				1342733F1AC3EB2E0036178E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ButtonBlock;
+			productName = ButtonBlock;
+			productReference = 134273411AC3EB2E0036178E /* ButtonBlock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		134273641AC3EB2E0036178E /* ButtonBlockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 134273791AC3EB2E0036178E /* Build configuration list for PBXNativeTarget "ButtonBlockTests" */;
+			buildPhases = (
+				134273611AC3EB2E0036178E /* Sources */,
+				134273621AC3EB2E0036178E /* Frameworks */,
+				134273631AC3EB2E0036178E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1342736B1AC3EB2E0036178E /* PBXTargetDependency */,
+			);
+			name = ButtonBlockTests;
+			productName = ButtonBlockTests;
+			productReference = 134273651AC3EB2E0036178E /* ButtonBlockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		134273391AC3EB2E0036178E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DF;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = yuan;
+				TargetAttributes = {
+					134273641AC3EB2E0036178E = {
+						TestTargetID = 134273401AC3EB2E0036178E;
+					};
+				};
+			};
+			buildConfigurationList = 1342733C1AC3EB2E0036178E /* Build configuration list for PBXProject "ButtonBlock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 134273381AC3EB2E0036178E;
+			productRefGroup = 134273421AC3EB2E0036178E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				134273401AC3EB2E0036178E /* ButtonBlock */,
+				134273641AC3EB2E0036178E /* ButtonBlockTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1342733F1AC3EB2E0036178E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1342735B1AC3EB2E0036178E /* Main_iPad.storyboard in Resources */,
+				134273601AC3EB2E0036178E /* Images.xcassets in Resources */,
+				134273581AC3EB2E0036178E /* Main_iPhone.storyboard in Resources */,
+				1342734F1AC3EB2E0036178E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		134273631AC3EB2E0036178E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				134273711AC3EB2E0036178E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1342733D1AC3EB2E0036178E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				134273551AC3EB2E0036178E /* DFAppDelegate.m in Sources */,
+				1342735E1AC3EB2E0036178E /* DFViewController.m in Sources */,
+				134273511AC3EB2E0036178E /* main.m in Sources */,
+				134273801AC3EBE50036178E /* UIButton+WithBlock.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		134273611AC3EB2E0036178E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				134273731AC3EB2E0036178E /* ButtonBlockTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1342736B1AC3EB2E0036178E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 134273401AC3EB2E0036178E /* ButtonBlock */;
+			targetProxy = 1342736A1AC3EB2E0036178E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1342734D1AC3EB2E0036178E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1342734E1AC3EB2E0036178E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		134273561AC3EB2E0036178E /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				134273571AC3EB2E0036178E /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		134273591AC3EB2E0036178E /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1342735A1AC3EB2E0036178E /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		1342736F1AC3EB2E0036178E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				134273701AC3EB2E0036178E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		134273741AC3EB2E0036178E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		134273751AC3EB2E0036178E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		134273771AC3EB2E0036178E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ButtonBlock/ButtonBlock-Prefix.pch";
+				INFOPLIST_FILE = "ButtonBlock/ButtonBlock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		134273781AC3EB2E0036178E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ButtonBlock/ButtonBlock-Prefix.pch";
+				INFOPLIST_FILE = "ButtonBlock/ButtonBlock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1342737A1AC3EB2E0036178E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ButtonBlock.app/ButtonBlock";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ButtonBlock/ButtonBlock-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ButtonBlockTests/ButtonBlockTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1342737B1AC3EB2E0036178E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ButtonBlock.app/ButtonBlock";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ButtonBlock/ButtonBlock-Prefix.pch";
+				INFOPLIST_FILE = "ButtonBlockTests/ButtonBlockTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1342733C1AC3EB2E0036178E /* Build configuration list for PBXProject "ButtonBlock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				134273741AC3EB2E0036178E /* Debug */,
+				134273751AC3EB2E0036178E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		134273761AC3EB2E0036178E /* Build configuration list for PBXNativeTarget "ButtonBlock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				134273771AC3EB2E0036178E /* Debug */,
+				134273781AC3EB2E0036178E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		134273791AC3EB2E0036178E /* Build configuration list for PBXNativeTarget "ButtonBlockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1342737A1AC3EB2E0036178E /* Debug */,
+				1342737B1AC3EB2E0036178E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 134273391AC3EB2E0036178E /* Project object */;
+}
